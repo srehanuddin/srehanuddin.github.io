@@ -238,6 +238,15 @@
         </div><!--//container-->
     </footer><!--//footer-->
  
+ <script>
+		// TODO add service worker code here
+		  if ('serviceWorker' in navigator) {
+			navigator.serviceWorker
+					 .register('./service-worker.js')
+					 .then(function() { console.log('Service Worker Registered'); });
+		  }
+	</script>
+	
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
@@ -249,14 +258,7 @@
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>            
 	
-	<script>
-		// TODO add service worker code here
-		  if ('serviceWorker' in navigator) {
-			navigator.serviceWorker
-					 .register('./service-worker.js')
-					 .then(function() { console.log('Service Worker Registered'); });
-		  }
-	</script>
+	
 </body>
 </html> 
 
