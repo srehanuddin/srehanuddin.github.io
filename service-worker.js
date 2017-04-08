@@ -19,6 +19,8 @@ var filesToCache = [
   '/index.html',
   '/favicon.ico',
   '/assets/css/styles.css',
+  '/assets/css/css.css',
+  '/assets/css/css1.css',
   '/assets/images/github-chart.png',
   '/assets/images/logo.jpg',
   '/assets/images/profile.png',
